@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    background: radial-gradient(#5bf0f5, rgb(93, 93, 248));
+    text-align: center;
+}
+
+.counter {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.div-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px 25px;
+}
+
+@media (max-width:500px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+
+
+
